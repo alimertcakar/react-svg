@@ -6,7 +6,15 @@ function App() {
   return (
     <div>
       İnit
-      <ReactSVG src={Head} style={{ width: "100px" }}></ReactSVG>
+      <ReactSVG
+        src={Head}
+        style={{
+          width: "100px",
+          height: "50px",
+          fill: "#f0f",
+          stroke: "#000",
+        }}
+      ></ReactSVG>
     </div>
   );
 }
